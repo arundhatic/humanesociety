@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+.top-menu{
+	background-color: #6ACAD2;
+}
+
+.items, .learnmoremenu{
+    font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+    font-size: 15px;
+	color:#023955;
+}
+
+.section-1{
+	padding-top: 70px;
+}
+
+/* section 2*/
+
+.section-2{
+	margin-top: 80px;
+	padding-top: 30px;
+	padding-bottom:20px;
+	border: 0.3px solid #023955;
+}
+
+.section-2 h5, .section-2 p, .section-2 h2, .sponsorship1, .section-2 h4, .section-2 label, .section-2 buttom, .rsvp, .checkout{
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	color:#023955;
+	border-color: #023955;
+}
+
+/*section 3*/
+.section-3{
+	margin-top: 20px;
+	padding-top: 30px;
+	padding-bottom:0px;
+}
+
+@media (max-width: 575.98px) { 
+  
+  .card1{
+  	margin-left:30px;
+  }
+
+ }
+
+ @media (min-width: 768px) and (max-width: 899.99px){
+    .card1{
+    	
+    }
+   }
+
+.project, .campaign, .stock, .email{
+  border-color: #023955;
+  color: #023955;
+  text-align: center;
+  font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+}
+
+.project:hover {
+	opacity: 1;
+	background-color:#023955; 
+
+}
+
+.email:hover {
+	opacity: 1;
+	background-color:#023955; 
+
+}
+
+.item1 h5, .item1 p, .item2 h5, .item2 p, .item3 h5, .item3 p{
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	color:#023955;
+}
+
+.section-3 h5, .section-3 p, .section-3 a, .section-4 h6, .section-4 p, .section-4 h5{
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	color:#023955;
+}
+
+
+/*section 4*/
+.section-4{
+	padding-top: 30px;
+	padding-bottom:20px;
+}
+
+.section-4 .card-header{
+ background-color: #023955;
+  color: #6acad2;
+  text-align: center;
+  font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+  font-size: 22px;
+}
+
+.time, .location2, .attire{
+	width: 130px;
+	height: 150px;
+	margin-left: 75px;
+}
+
+
+.rsvp_img{
+	height: 280px;
+	width: 200px;
+}
+
+.rsvp:hover {
+	opacity: 1;
+	background-color: #6ACAD2; 
+    color: #023955;
+}
+
+.checkout:hover {
+	opacity: 1;
+	background-color: #6ACAD2; 
+    color: #023955;
+}
+
+/*footer*/
+
+.section-8{
+background-color: #6ACAD2;
+	
+}
+
+.followus,.link1, .link2, .link3, .link4, .lastpart,.copyright{
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	color:#023955;
+}
+
+.followus, .confidence{
+	text-decoration-line: underline;
+	text-decoration-color: #023955;
+}
+
+.confidence{
+	font-size:18px;
+}
+
+

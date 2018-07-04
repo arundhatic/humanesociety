@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Portfolio Page Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+    <link href="css/donate.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    </style>
+  </head>
+  <body>
+   
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top top-menu">
+		<div class="container">
+			<a class="navbar-brand" href="#"> 
+			  <img class ="img-fluid SDHSlogo" src="images/HS_logo_resize.png" alt="SDHS logo">
+			</a>
+			
+			<button class="navbar-toggler" type="button"
+			  data-toggle="collapse" data-target="#myTogglerNav"
+			  aria-controls="myTogglerNav"
+			  aria-expanded="false" aria-label="Toggle navigation">
+			 <span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="myTogglerNav">
+			<div class="navbar-nav ml-auto learnmoremenu">
+			  <a class="nav-link home" href="learn_more.html">Home</a> 
+			  <a class="nav-item nav-link item_active items" href="eventdetails.html">Event Details</a>
+			  <a class="nav-item nav-link items" href="ticket.html">Tickets</a>
+			  <a class="nav-item nav-link items" href="volunteer.html">Volunteer</a>
+			  <a class="nav-item nav-link items active" href="donate.html">Donate</a>
+			  <a class="nav-item nav-link items" href="aboutus.html">About Us</a>
+			  <a class="nav-item nav-link" href="map.html">
+			  <img class ="img-fluid location" src="images/location.png" alt="location logo"></a>		  
+			</div>
+		  </div>
+		</div>	  	  
+	 </nav>
+	  
+	<!--2nd section-->  
+
+	 <div class="container section-2">
+	  <div class="row ">
+       <div class="col-sm-12 col-md-8 col-lg-8">
+        <div class="row donate-bar">  
+          <div class="col-md-4 theme-blue">
+            Choose your donation
+          </div>
+          <div class="col-md-8">
+            <ul class="nav navbar-nav navbar-left donate-buttons" id="donate-buttons">
+              <li><a href="#">
+                <button class="btn-blue active" data-dollars="25" data-impact="">
+                  $25
+                </button>
+              </a></li>
+              <li><a href="#">
+                <button class="btn-blue" data-dollars="50" data-impact="">
+                  $50
+                </button>
+              </a></li>
+              <li><a href="#">
+                <button class="btn-blue" data-dollars="100" data-impact="">
+                  $100
+                </button>
+              </a></li>
+              <li><a href="#">
+                <button class="btn-blue" data-dollars="500" data-impact="">
+                  $500
+                </button>
+              </a></li>
+              <li id="other"><a href="#">
+                <button class="btn-blue-other" data-dollars="other" data-impact="Thank you!">
+                  Other
+                </button>
+              </a></li>
+              <li id="other-input">
+                <span>$</span>
+               <input data-impact="That’s great. Thank you!">
+              </li>
+              <li><a href="#">
+                <button class="btn-green" data-toggle="modal" data-target="#myModal">
+                  DONATE
+                </button>
+              </a></li>
+              <li style="display: none;"><a href="#">
+                LEARN MORE<i class="fa fa-chevron-right margin-left"></i>
+              </a></li>
+            </ul>
+            <p class="impact">
+              San Diego Humane Society is a private, non-profit 501(c)(3) charity supported almost entirely by donations, and has received a four-star rating from Charity Navigator, America’s largest independent evaluator of charities. Your donation is tax-deductible as permissible by law.
+            </p>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header well text-center theme-background-blue">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h2>You’re Donating:</h2>
+                    <h1 style="font-size: 5.5em; margin-top: 0;">$<span id="price"></span></h1>
+                    <em class="content-to-hide">Thank you!</em>
+                  </div>
+                  <div class="modal-body">
+                    <div class="row">  
+                      <section class="col-md-12">
+                        <form>
+                          <fieldset class="col-md-6">
+                            <legend>
+                              Your personal info
+                            </legend>
+                            <label>Your Name</label>
+                            <input type="string" class="form-control">
+                            <label>Your email</label>
+                            <input type="email" class="form-control">
+                            <label>Address</label>
+                            <input type="email" class="form-control">
+                            <label>City, State, Zip Code</label>
+                            <input type="email" class="form-control">
+                          </fieldset>
+                          <fieldset class="col-md-6">
+                            <legend>
+                              Credit Card Information
+                            </legend>
+                            <label for="card-number">Credit Card Number</label>
+                            <input placeholder="1234 5678 9012 3456" pattern="[0-9]*" type="text" class="form-control card-number" id="card-number">
+                            <label for="card-number">Expiration Date</label>
+                            <input placeholder="MM/YY" pattern="[0-9]*" type="text" class="form-control card-expiration" id="card-expiration">
+                            <label for="card-number">CVV Number</label>
+                            <input placeholder="CVV" pattern="[0-9]*" type="text" class="form-control card-cvv" id="card-cvv">
+                            <label for="card-number">Billing Zip Code</label>
+                            <input placeholder="ZIP" pattern="[0-9]*" type="text" class="form-control card-zip" id="card-zip">
+                          </fieldset>
+                        </form>
+                      </section>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">BACK</button>
+                    <button type="button" class="btn-green">CONTINUE</button>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+          </div>
+        </div><!--/.donate-bar-->
+	   </div>
+       <div class="col-sm-12 col-md-4 col-lg-4">
+		   <div class="img-wrapper donateimage">
+              <img class="img-fluid" src="images/donate.svg" alt="eventdetails">
+		   </div>
+		</div>
+	  </div>
+     </div>
+	  
+<!--3rd section-->
+
+<div class="container section-3">
+  <div class="row">
+	<div class="col-lg-4 col-md-12 col-sm-12 card1">
+	  <div class="card" style="width: 18rem;">
+       <img class="card-img-top" src="images/project.svg" alt="Card image cap">
+         <div class="card-body item1">
+           <h5 class="card-title">Sponsor a project</h5>
+             <p class="card-text">Fund an entire project with a gift of $10,000 or more.</p>
+         <a href="#" class="btn btn-outline-dark project">Learn More</a>
+        </div>
+     </div>
+	</div>
+	 <div class="col-lg-4 col-md-12 col-sm-12 card1">
+	  <div class="card" style="width: 18rem;">
+       <img class="card-img-top" src="images/campaign.svg" alt="Card image cap">
+         <div class="card-body item2">
+           <h5 class="card-title">Donate to a campaign</h5>
+             <p class="card-text">Support one of our many fundraisers, here is a list of our events..</p>
+         <a href="#" class="btn btn-outline-dark campaign">Find A Campaign</a>
+        </div>
+     </div>
+	</div>
+	 	<div class="col-lg-4 col-md-12 col-sm-12 card1">
+	  <div class="card" style="width: 18rem;">
+       <img class="card-img-top" src="images/check.svg" alt="Card image cap">
+         <div class="card-body item3">
+           <h5 class="card-title">Give by check or stock</h5>
+             <p class="card-text">We also accept donations by check, stock, money order, wire transfer and Pay Pal.</p>
+         <a href="#" class="btn btn-outline-dark stock">Learn More</a>
+        </div>
+     </div>
+	</div>
+  </div>	  
+</div>
+	 
+	  
+
+<!--8th section footer-->
+
+
+<footer class="page-footer font-small blue pt-4 mt-4 w-100 section-8">
+      <div class="container  text-center text-md-left ">
+    <div class="row">
+          <div class="col-md-12 col-lg-12 col-sm-12 text-center">
+        <h5 class="followus">Follow Us On</h5>
+        <ul class="list-unstyled">
+              <li> <a class="link1" href="https://twitter.com/sdhumane">Twitter</a> </li>
+              <li> <a class="link2" href="https://www.facebook.com/SanDiegoHumaneSociety">Facebook</a> </li>
+              <li> <a class="link3" href="https://www.instagram.com/sdhumanesociety/">Instagram</a> </li>
+              <li> <a class="link4" href="https://www.instagram.com/sdhumanesociety/">Pinterest</a> </li>
+            </ul>
+      </div>
+        </div>
+  </div>
+   <div class="lastpart text-center ">
+    <h5 class="confidence">Donate With Confidence!</h5>
+    <p class="part1" >San Diego Humane Society is a Charity Navigator Four Star rated organization and a Better Business Bureau.</p>
+    <p class="part2" >Accredited charity.</p>
+    <p class="part3" >Tax ID: 95-1661688.</p>
+    <div class="footer-copyright py-3 text-center"> © 2018 Copyright: <a class="copyright" href="https://www.sdhumane.org"> sandiegohumanesociety.com </a> </div>
+  </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.0.0.js"></script>
+    <script src="js/custom.js"></script> 
+  </body>
+</html>

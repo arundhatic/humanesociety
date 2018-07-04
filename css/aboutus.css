@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+.aboutus2{
+	background-color: #6ACAD2;
+}
+
+.home, .findpet, .resource, .care, .dogncat{
+    font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+    font-size: 15px;
+	color:#023955;
+}
+
+.home{
+	opacity: 0.6;
+}
+
+.active{
+	color:#023955;
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+    font-size: 15px;
+}
+
+.aboutus3{
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	color:#023955;
+}
+
+/* Footer */
+
+.section-8{
+background-color: #de8182;
+	
+}
+
+.location, .address-1, .address-2, .address-3,.followus,.link1, .link2, .link3, .link4, .lastpart,.copyright{
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	color:#023955;
+}
+
+.location, .followus, .confidence{
+	text-decoration-line: underline;
+	text-decoration-color: #023955;
+}
+
+/*section 1*/
+
+.section-1{
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.findcat, .finddog, .otherpets{
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	color:#023955;
+}
+
+@media (min-width: 300px) { 
+.findcat, .finddog, .otherpets{
+	position: absolute;
+	top: 60%;
+	font-size: 18px;
+}
+}
+
+@media (min-width: 768px) { 
+.findcat, .finddog, .otherpets{
+	position: absolute;
+	top: 50%;
+	font-size: 22px;
+}
+}
+
+/*section 3*/
+
+.section-2{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.ourmission, .ourmission-sec1, .ourmission-sec2, .ourmission-sec3, .adoption, .adoption-sec1{
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	color:#023955;
+	
+}
+
+@media (min-width: 768px) { 
+	.adoptionimg{
+	padding-top: 120px;
+	}
+
+}
+

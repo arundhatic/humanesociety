@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@import url("learnmore.css");
+
+@media (max-width: 39.9375em) {
+    .SDHS_logo{
+		padding-top: 2%;
+		padding-left:2%;
+    }
+}
+
+@media (min-width: 900px) {
+    .SDHS_logo{
+		padding-top: 2%;
+		padding-left:2%;
+    }
+}
+
+@media(min-width: 768px){
+	
+	.SDHSlogoholder{
+		position: relative;
+	}
+
+ .SDHSlogoholder img{
+	 position: absolute;
+    padding-top:20px;
+    padding-left:2%;
+    }
+
+}
+
+
+.section-1, .text1, .text2{
+  color: #023955;
+  font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+}
+
+.section-2{
+ padding-top: 30px;
+ padding-bottom: 70px;
+}
+
+
+.learn-more{
+  border-color: #023955;
+  color: #023955;
+  text-align: center;
+  font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+  padding: 13px 20px;
+  margin-top: 30px;
+  transition: 0.3s;
+}
+
+.learn-more:hover {
+	opacity: 1;
+	background-color:#023955; 
+
+}
+
+.button-holder {
+  position: relative;
+}
+
+
+@media (max-width: 39.9375em) {
+  .learm-more button{
+  position: absolute;
+  top: 97%;
+ }
+}
+
+@media (min-width: 900px) {
+.learm-more button{
+  position: absolute;
+  top: 99%;
+}
+}
+
+@media(min-width: 768px){
+  .learm-more button{
+  position: absolute;
+  top: 100%%;
+}
+
+}
+

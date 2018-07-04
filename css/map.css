@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+.top-menu{
+	background-color: #6ACAD2;
+}
+
+.items, .learnmoremenu{
+    font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+    font-size: 15px;
+	color:#023955;
+}
+
+.section-1{
+	padding-top: 70px;
+}
+
+
+.location1{
+	background-color: #6ACAD2;
+}
+
+.location, .home{
+    font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	color:#023955;
+}
+
+.map1{
+	margin-top: 20px;
+    font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	color:#023955;
+}
+
+@media (min-width: 992px) { 
+.sdmap{
+	margin-left: 150px;
+	margin-right: 150px;
+}
+}
+
+/*Section-2*/
+.section-2{
+	margin-top: 80px;
+	padding-top: 30px;
+	padding-bottom:20px;
+	border: 0.3px solid #023955;
+}
+
+.section-2 h5, .section-2 p, .section-2 label, .direction{
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	color:#023955;
+}
+
+@media (max-width: 39.9375em) {
+    .direction{
+    	margin-bottom: 15px;
+		font-size: 15px;
+		font-weight: bold;
+    }
+}
+
+@media (min-width: 900px) {
+    .direction{
+    	margin-bottom: 15px;
+		font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 899.99px){
+	
+	.direction{
+    	margin-bottom: 15px;
+		font-size: 15px;
+		font-weight: bold;
+    }
+    }
+
+/*footer*/
+
+.section-8{
+background-color: #6ACAD2;
+	
+}
+
+.followus,.link1, .link2, .link3, .link4, .lastpart,.copyright{
+	font-family:Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif';
+	color:#023955;
+}
+
+.followus, .confidence{
+	text-decoration-line: underline;
+	text-decoration-color: #023955;
+}
+
+.confidence{
+	font-size:18px;
+}

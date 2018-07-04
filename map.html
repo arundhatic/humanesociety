@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Portfolio Page Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+    <link href="css/map.css" rel="stylesheet" type="text/css">
+    <style type="text/css"></style>
+    </head>
+    <body>
+		
+   <nav class="navbar navbar-dark navbar-expand-sm fixed-top top-menu">
+		<div class="container">
+			<a class="navbar-brand" href="#"> 
+			  <img class ="img-fluid SDHSlogo" src="images/HS_logo_resize.png" alt="SDHS logo">
+			</a>
+			
+			<button class="navbar-toggler" type="button"
+			  data-toggle="collapse" data-target="#myTogglerNav"
+			  aria-controls="myTogglerNav"
+			  aria-expanded="false" aria-label="Toggle navigation">
+			 <span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="myTogglerNav">
+			<div class="navbar-nav ml-auto learnmoremenu">
+			  <a class="nav-link home" href="learn_more.html">Home</a> 
+			  <a class="nav-item nav-link item_active items" href="eventdetails.html">Event Details</a>
+			  <a class="nav-item nav-link items" href="ticket.html">Tickets</a>
+			  <a class="nav-item nav-link items" href="volunteer.html">Volunteer</a>
+			  <a class="nav-item nav-link items" href="donate.html">Donate</a>
+			  <a class="nav-item nav-link items" href="aboutus.html">About Us</a>
+			  <a class="nav-item nav-link" href="map.html">
+			  <img class ="img-fluid location" src="images/location.png" alt="location logo"></a>		  
+			</div>
+		  </div>
+		</div>	  	  
+	 </nav>
+		
+		
+<div class="container section-1">
+  <div class="row">
+	 <div class="col-sm-12 col-md-12 col-lg-12">
+		   <h4 class="map1 text-center">San Diego Campus</h4>
+	  </div>		  
+  </div>
+</div>
+
+<div class="container section-1">
+  <div class="row">
+    <div class="col">       
+     <div class="img-wrapper sdmap">
+      <img class="img-fluid" src="images/map.svg" alt="invite">
+   </div>
+    </div>
+  </div>
+</div>
+
+<!-- 2nd Section-->
+
+<div class="container section-2">
+      <div class="row ">
+    <div class="col-sm-12 col-md-4 col-lg-4">
+          <form action="http://maps.google.com/maps" method="get" target="_blank">
+        <label for="saddr">SAN DIEGO CAMPUS</label>
+        <p class="address-1"> 5500 Gaines Street
+              San Diego, CA 92110</p>
+        <input type="hidden" name ="saddr" value="San Diego Humane Society, 5500 Gaines St, San Diego, CA 92110" />
+        <input class="direction"  type="submit" value="Get directions" />
+      </form>
+        </div>
+    <div class="col-sm-12 col-md-4 col-lg-4">
+          <form action="http://maps.google.com/maps" method="get" target="_blank">
+        <label for="saddr">ESCONDIDO CAMPUS</label>
+        <p class="address-2"> 3450 E. Valley Parkway
+              Escondido, CA 92027</p>
+        <input type="hidden" name ="saddr" value="3450 E. Valley Parkway
+Escondido, CA 92027" />
+        <input class="direction" type="submit" value="Get directions" />
+      </form>
+        </div>
+    <div class="col-sm-12 col-md-4 col-lg-4">
+          <form action="http://maps.google.com/maps" method="get" target="_blank">
+        <label for="saddr">OCEANSIDE CAMPUS</label>
+        <p class="address-3"> 572 Airport Road
+              Oceanside, CA 92058</p>
+        <input type="hidden" name ="saddr" value="572 Airport Road
+Oceanside, CA 92058" />
+        <input class="direction"  type="submit" value="Get directions" />
+      </form>
+        </div>
+  </div>
+    </div>
+		
+		
+		
+<footer class="page-footer font-small blue pt-4 mt-4 w-100 section-8">
+      <div class="container  text-center text-md-left ">
+    <div class="row">
+          <div class="col-md-12 col-lg-12 col-sm-12 text-center">
+        <h5 class="followus">Follow Us On</h5>
+        <ul class="list-unstyled">
+              <li> <a class="link1" href="https://twitter.com/sdhumane">Twitter</a> </li>
+              <li> <a class="link2" href="https://www.facebook.com/SanDiegoHumaneSociety">Facebook</a> </li>
+              <li> <a class="link3" href="https://www.instagram.com/sdhumanesociety/">Instagram</a> </li>
+              <li> <a class="link4" href="https://www.instagram.com/sdhumanesociety/">Pinterest</a> </li>
+            </ul>
+      </div>
+        </div>
+  </div>
+   <div class="lastpart text-center ">
+    <h5 class="confidence">Donate With Confidence!</h5>
+    <p class="part1" >San Diego Humane Society is a Charity Navigator Four Star rated organization and a Better Business Bureau.</p>
+    <p class="part2" >Accredited charity.</p>
+    <p class="part3" >Tax ID: 95-1661688.</p>
+    <div class="footer-copyright py-3 text-center"> © 2018 Copyright: <a class="copyright" href="https://www.sdhumane.org"> sandiegohumanesociety.com </a> </div>
+  </div>
+    </footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.2.1.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.0.0.js"></script> 
+<script src="js/custom.js"></script>
+</body>
+</html>
